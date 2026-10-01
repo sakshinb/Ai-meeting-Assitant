@@ -51,7 +51,7 @@ export const UploadView: React.FC<UploadViewProps> = ({
   const [error, setError] = useState<string | null>(null);
 
   // Security & Password state (Step 2)
-  const [meetingPassword, setMeetingPassword] = useState<string>('');
+  const [meetingPassword, setMeetingPassword] = useState<string>('SecurePass123!');
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const [createdCredentials, setCreatedCredentials] = useState<{
     meetingId: string;

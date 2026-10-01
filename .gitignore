@@ -39,13 +39,11 @@ uploads/*
 !uploads/.gitkeep
 sample_meeting.wav
 samples/
-checkpoints/
 *.wav
 *.mp3
 *.flac
 *.m4a
 *.ogg
-*.pt
 data/*.npy
 
 # Environment / Secret Files
